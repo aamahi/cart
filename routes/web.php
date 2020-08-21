@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('admin.dashboard.index');
-});
+//Route::get('/', function () {
+//    return view('admin.dashboard.index');
+//});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 
 
 // Admin Route
@@ -40,3 +40,7 @@ Route::prefix('admin')->group(function () {
 });
 
 
+
+// Frontend Controller
+
+Route::get('/','FrontendController@index')->name('home');
