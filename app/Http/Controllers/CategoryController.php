@@ -70,7 +70,7 @@ class CategoryController extends Controller
 
             $notification = array(
                 'message' => "Category Updated !",
-                'alert-type' => 'error'
+                'alert-type' => 'info'
             );
             return redirect()->route('category')->with($notification);
 
@@ -82,7 +82,7 @@ class CategoryController extends Controller
             $category->save();
             $notification = array(
                 'message' => "Category Updated !",
-                'alert-type' => 'error'
+                'alert-type' => 'info'
             );
             return redirect()->route('category')->with($notification);
         }

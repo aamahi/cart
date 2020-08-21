@@ -31,6 +31,12 @@ Route::prefix('admin')->group(function () {
     Route::get('/edit/category/{id}','CategoryController@editCategory')->name('editCategory');
     Route::post('/edit/category/{id}','CategoryController@updateCategory');
     Route::get('/delete/category/{id}','CategoryController@deleteCategory')->name('deleteCategory');
+
+
+    Route::get('/add/product/','ProductController@index')->name('addProduct');
+    Route::post('/add/product/','ProductController@addProduct');
+
+    Route::get('/product','ProductController@product')->name('product');
 });
 
 

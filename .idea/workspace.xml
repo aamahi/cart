@@ -20,354 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5557686e-5856-46a3-bf01-1c0eb9f51d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_142815_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/css/demo_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/css/demo_table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/back_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/back_enabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/back_enabled_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/forward_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/forward_enabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/forward_enabled_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/advanced-datatable/media/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-colorpicker/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-colorpicker/img/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-colorpicker/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-colorpicker/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-datepicker/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-daterangepicker/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-datetimepicker/css/datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-fileupload/bootstrap-fileupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-fileupload/bootstrap-fileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-switch/static/js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-switch/static/stylesheets/bootstrap-switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-timepicker/compiled/timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/chart-master/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/colorpicker/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/DT_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/DT_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/images/sort_asc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/images/sort_desc_disabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/data-tables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/dropzone/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/dropzone/images/spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/dropzone/images/spritemap@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fancybox/source/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fancybox/source/fancybox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fancybox/source/fancybox_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fancybox/source/fancybox_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fancybox/source/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fancybox/source/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/css/jquery.fileupload-noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/css/jquery.fileupload-ui-noscript.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/css/jquery.fileupload-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/css/jquery.fileupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/img/progressbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload-audio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload-image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload-process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload-validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload-video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.fileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/jquery.iframe-transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/file-uploader/js/vendor/jquery.ui.widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/flot-chart/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/flot-chart/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/flot-chart/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/flot-chart/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/font-awesome/fonts/fontawesome-webfontba72.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/font-awesome/fonts/fontawesome-webfontba72.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/font-awesome/fonts/fontawesome-webfontba72.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/font-awesome/fonts/fontawesome-webfontba72.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fuelux/css/tree-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fuelux/img/tree-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fuelux/js/spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fuelux/js/tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/fullcalendar/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/gritter/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/gritter/images/gritter-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/gritter/images/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/gritter/images/ie-spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/gritter/js/jquery.gritter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jcrop/css/Jcrop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jcrop/css/jquery.Jcrop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jcrop/js/jquery.Jcrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jcrop/js/jquery.color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/css/jquery.fileupload-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/img/progressbar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/jquery.fileupload-fp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/jquery.fileupload-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/jquery.fileupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/jquery.iframe-transport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/vendor/canvas-to-blob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/vendor/jquery.ui.widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/vendor/load-image.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-file-upload/js/vendor/tmpl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-knob/js/jquery.knob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-multi-select/css/multi-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-multi-select/img/switch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-multi-select/js/jquery.multi-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-multi-select/js/jquery.quicksearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/jquery-ui-1.10.1.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/jquery-ui/jquery-ui-1.10.1.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/morris.js-0.4.3/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/morris.js-0.4.3/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/morris.js-0.4.3/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/nestable/jquery.nestable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/select2/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/select2/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/summernote/dist/summernote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/summernote/dist/summernote.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/switchery/switchery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/switchery/switchery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/toastr-master/toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/toastr-master/toastr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/xchart/d3.v3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/xchart/xcharts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/assets/xchart/xcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/bootstrap-reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/image-crop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/invoice-print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/jquery.steps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/slidebars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/soon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/style-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/table-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/tasks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/css/yamm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/404_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/500_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/arrow-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/avatar-mini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/avatar-mini2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/avatar-mini3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/avatar-mini4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/avatar1_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/blue-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/chart-texture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/chat-attach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/chat-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/chat-avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/chat-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/checkbox/check-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/checkbox/check-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/checkbox/radio-off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/checkbox/radio-on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/customSelect-arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/dark-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/icon-cal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/icon-tel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/main-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/social-facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/social-google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/social-linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/social-twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/social-youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/email-img/vector-lab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/favicon-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/favicon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/fb-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/ai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/eps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/jpg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/ppt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/psd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/xls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/file-search/zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/flags/de.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/flags/es.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/flags/fr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/flags/ru.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/flags/us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/follower-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/gallery/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/gallery/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/gallery/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/gallery/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/gallery/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/gallery/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/green-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/input-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/left-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/lock-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mail-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/corner_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/mega-menu-images1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/mega-menu-images2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/mega-menu-images3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/mega-menu-images4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/mega-menu-images5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega-menu/mega-menu-images6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega_icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega_icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega_icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/mega_icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/nav-expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/photos/user1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/photos/user2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/photos/user3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/photos/user4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/photos/user5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/pro-ac-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/pro-ac-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro-thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro-thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro-thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro-thumb-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product-list/pro3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/product3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/profile-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/purple-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/ring.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/search-icon-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/search-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/slider/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/sm-img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/sm-img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/sm-img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/img/vector-lab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/advanced-form-components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/all-chartjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/bootstrap-validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/common-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/common-scripts5e1f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/draggable-portlet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/dynamic_table_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/easy-pie-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/external-dragging-calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/flot-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/form-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/form-image-crop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/form-validation-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/ga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/gmaps-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/gritter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/hover-dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery-migrate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.customSelect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.pulsate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.steps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.stepy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/modernizr.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/morris-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/pickers/init-color-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/pickers/init-date-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/pickers/init-datetime-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/pulstate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/slidebars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/sliders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/soon/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/soon/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/sparkline-chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/tasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/toucheffects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asset/admin/js/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/toaster.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/toaster.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/category/category_20200821_04181496.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/basic_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/editCategory.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/form_component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/multiplePhoto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_182352_create_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_182519_create_multiple_photos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/multipleProduct/product_photo20_08210655_282.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/multipleProduct/product_photo20_08210655_289.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/multipleProduct/product_photo20_08210655_557.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/multipleProduct/product_photo20_08210655_564.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/product/product_image20_08210654_212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/product/product_image20_08210655_279.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/product/product_image20_08210655_553.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/addProduct.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/editCategory.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/editCategory.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -533,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598014104814</updated>
-      <workItem from="1598014106067" duration="11773000" />
+      <workItem from="1598014106067" duration="18157000" />
     </task>
     <servers />
   </component>
@@ -555,14 +226,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="328" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598028396799">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="328" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1598028396799" />
     <state x="382" y="174" key="run.anything.popup" timestamp="1598022145757">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1598022145757" />
-    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598025082710">
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598036598886">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1598025082710" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1598036598886" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,6 +246,11 @@
           <url>file://$PROJECT_DIR$/resources/views/admin/dashboard/category.blade.php</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/admin/dashboard/addProduct.blade.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -33,8 +33,8 @@
                                     <input type="text" class="form-control" id="slug" name="slug"  value="{{$category->slug}}" placeholder="slug Name">
                                 </div>
                                 <div class="form-group">
-                                    <label for="categoryPhoto">Category Photo</label>
-                                    <img src="{{asset('uploads/category/'.$category->categoryPhoto)}}" width="100">
+                                    <label for="categoryPhoto">Old Category Photo</label>
+                                    <img src="{{asset('uploads/category/'.$category->categoryPhoto)}}" width="200">
                                     <input type="file" class="form-control" id="categoryPhoto" name="categoryPhoto" >
                                 </div>
                                 <button type="submit" class="btn btn-primary">Upload Category</button>
