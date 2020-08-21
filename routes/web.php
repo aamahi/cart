@@ -14,9 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.dashboard.index');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+// Admin Route
+
+//
+Route::prefix('admin')->group(function () {
+    Route::get('/category','CategoryController@index')->name('category');
+    Route::post('/category','CategoryController@addCategory');
+    Route::get('/edit/category/{id}','CategoryController@editCategory')->name('editCategory');
+    Route::post('/edit/category/{id}','CategoryController@updateCategory');
+    Route::get('/delete/category/{id}','CategoryController@deleteCategory')->name('deleteCategory');
+});
+
+
