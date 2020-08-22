@@ -197,50 +197,26 @@
             <div class="header-cart">
                 <button class="icon-cart">
                     <i class="ti-shopping-cart"></i>
-                    <span class="count-style">02</span>
+                    <span class="count-style">{{\App\Model\Cart::where('ip_address',request()->ip())->count()}}</span>
                     <span class="count-price-add">$295.95</span>
                 </button>
                 <div class="shopping-cart-content">
                     <ul>
+                        @foreach($carts as $cart)
                         <li class="single-shopping-cart">
                             <div class="shopping-cart-img">
-                                <a href="#"><img alt="" src="{{asset('asset/frontend/assets/img/cart/cart-1.jpg')}}"></a>
+                                <a href="#"><img width="60" alt="" src="{{asset('uploads/product/'.($cart->products)->photo)}}"></a>
                             </div>
                             <div class="shopping-cart-title">
-                                <h3><a href="#">Gloriori GSX 250 R </a></h3>
-                                <span>Price: $275</span>
-                                <span>Qty: 01</span>
+                                <h3><a href="#">{{($cart->products)->productName}}</a></h3>
+                                <span>Price: {{($cart->products)->price}}</span>
+                                <span>Qty: {{$cart->quantity}}</span>
                             </div>
                             <div class="shopping-cart-delete">
                                 <a href="#"><i class="icofont icofont-ui-delete"></i></a>
                             </div>
                         </li>
-                        <li class="single-shopping-cart">
-                            <div class="shopping-cart-img">
-                                <a href="#"><img alt="" src="{{asset('asset/frontend/assets/img/cart/cart-2.jpg')}}"></a>
-                            </div>
-                            <div class="shopping-cart-title">
-                                <h3><a href="#">Demonissi Gori</a></h3>
-                                <span>Price: $275</span>
-                                <span class="qty">Qty: 01</span>
-                            </div>
-                            <div class="shopping-cart-delete">
-                                <a href="#"><i class="icofont icofont-ui-delete"></i></a>
-                            </div>
-                        </li>
-                        <li class="single-shopping-cart">
-                            <div class="shopping-cart-img">
-                                <a href="#"><img alt="" src="{{asset('asset/frontend/assets/img/cart/cart-3.jpg')}}"></a>
-                            </div>
-                            <div class="shopping-cart-title">
-                                <h3><a href="#">Demonissi Gori</a></h3>
-                                <span>Price: $275</span>
-                                <span class="qty">Qty: 01</span>
-                            </div>
-                            <div class="shopping-cart-delete">
-                                <a href="#"><i class="icofont icofont-ui-delete"></i></a>
-                            </div>
-                        </li>
+                        @endforeach
                     </ul>
                     <div class="shopping-cart-total">
                         <h4>total: <span>$550.00</span></h4>

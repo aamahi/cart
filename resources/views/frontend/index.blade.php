@@ -10,6 +10,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="{{asset('asset/frontend/assets/img/favicon.png')}}">
 
 		<!-- all css here -->
+
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/animate.css')}}">
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/owl.carousel.min.css')}}">
@@ -19,6 +20,9 @@
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/font-awesome.min.css')}}">
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/meanmenu.min.css')}}">
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/bundle.css')}}">
+
+        <link href="{{asset('css/toaster.css')}}" rel="stylesheet">
+
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/style.css')}}">
         <link rel="stylesheet" href="{{asset('asset/frontend/assets/css/responsive.css')}}">
         <script src="{{asset('asset/frontend/assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
@@ -404,6 +408,10 @@
         <script src="{{asset('asset/frontend/assets/js/vendor/jquery-1.12.0.min.js')}}"></script>
         <script src="{{asset('asset/frontend/assets/js/popper.js')}}"></script>
         <script src="{{asset('asset/frontend/assets/js/bootstrap.min.js')}}"></script>
+
+        <script src="{{asset('js/toaster.js')}}"></script>
+
+
         <script src="{{asset('asset/frontend/assets/js/isotope.pkgd.min.js')}}"></script>
         <script src="{{asset('asset/frontend/assets/js/imagesloaded.pkgd.min.js')}}"></script>
         <script src="{{asset('asset/frontend/assets/js/jquery.counterup.min.js')}}"></script>
@@ -412,7 +420,33 @@
         <script src="{{asset('asset/frontend/assets/js/owl.carousel.min.js')}}"></script>
         <script src="{{asset('asset/frontend/assets/js/plugins.js')}}"></script>
         <script src="{{asset('asset/frontend/assets/js/main.js')}}"></script>
+
+        <script>
+            @if(Session::has('message'))
+            var type = "{{ Session::get('alert-type', 'info') }}";
+            switch(type){
+                case 'info':
+                    toastr.info("{{ Session::get('message') }}");
+                    break;
+
+                case 'warning':
+                    toastr.warning("{{ Session::get('message') }}");
+                    break;
+
+                case 'success':
+                    toastr.success("{{ Session::get('message') }}");
+                    break;
+
+                case 'error':
+                    toastr.error("{{ Session::get('message') }}");
+                    break;
+            }
+            @endif
+        </script>
+
     </body>
+
+
 
 <!-- Mirrored from preview.hasthemes.com/oswan/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Jul 2020 05:13:09 GMT -->
 </html>

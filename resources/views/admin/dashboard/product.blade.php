@@ -13,7 +13,7 @@
                             <thead>
                             <tr>
                                 <th>Photo</th>
-                                <th>Category Name</th>
+                                <th>ID</th>
                                 <th>Product Name</th>
                                 <th>Subtitle</th>
                                 <th>Model</th>
@@ -27,7 +27,7 @@
                             @foreach($products as $product)
                                 <tr>
                                 <td><img width="95" src="{{asset('uploads/product/'.$product->photo)}}"></td>
-                                <td>{{$product->categoryId}}</td>
+                                <td>{{$product->id}}</td>
                                 <td>{{$product->productName}}</td>
                                 <td>{{$product->subtitle}}</td>
                                 <td>{{$product->model}}</td>

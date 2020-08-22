@@ -44,3 +44,5 @@ Route::prefix('admin')->group(function () {
 // Frontend Controller
 
 Route::get('/','FrontendController@index')->name('home');
+Route::get('/cart','CartController@cart')->name('cart');
+Route::post('/cart','CartController@addCart');
