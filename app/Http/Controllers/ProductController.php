@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ProductRequest;
 use App\Model\Category;
+use App\Model\Cupon;
 use App\Model\multiplePhoto;
 use App\Model\Product;
 use Intervention\Image\Facades\Image;
@@ -60,5 +61,29 @@ class ProductController extends Controller
    public function product(){
        $products = Product::all();
        return view('admin.dashboard.product',compact('products'));
+   }
+
+   public function cupon(){
+       $cupons  = Cupon::all();
+       return view('admin.dashboard.cupon',compact('cupons'));
+   }
+
+   public function addCupon(Request  $request){
+       $this->validate($request,[
+           'title'=>'required|unique:cupons,title',
+           'discount'=>'required|max:99|min:1',
+           'expaire'=>'required',
+       ]);
+
+       Cupon::insert([
+           'title'=>strtoupper($request->title),
+           'discount'=>$request->discount,
+           'expaire'=>$request->expaire,
+       ]);
+       $notification = array(
+           'message' => "Cupon Added Sucessfully",
+           'alert-type' => 'info'
+       );
+       return redirect()->back()->with($notification);
    }
 }

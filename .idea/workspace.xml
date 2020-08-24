@@ -20,16 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5557686e-5856-46a3-bf01-1c0eb9f51d8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_133539_create_carts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Cupon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_24_104136_create_cupons_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/cupon.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/cart.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layout/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/layout/product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/layout/product.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +169,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/dashboard" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,8 +180,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/frontend" />
       <recent name="$PROJECT_DIR$/resources/views/admin/dashboard" />
+      <recent name="$PROJECT_DIR$/resources/views/frontend" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,6 +202,8 @@
       <workItem from="1598073089521" duration="262000" />
       <workItem from="1598097564122" duration="30000" />
       <workItem from="1598100694675" duration="6841000" />
+      <workItem from="1598198916522" duration="4090000" />
+      <workItem from="1598264297936" duration="1746000" />
     </task>
     <servers />
   </component>
@@ -239,10 +242,10 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="382" y="174" key="run.anything.popup/70.27.1296.741@70.27.1296.741" timestamp="1598038300788" />
-    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598108733332">
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598265743218">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1598108733332" />
+    <state x="381" y="89" width="672" height="678" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1598265743218" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

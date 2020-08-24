@@ -36,4 +36,28 @@ class CartController extends Controller
         return view('frontend.cart',compact('carts'));
     }
 
+    public function deleteCart($id){
+        Cart::find($id)->delete();
+        $notification = array(
+            'message' => "Product Deleted to Cart",
+            'alert-type' => 'success'
+        );
+        return redirect()->back()->with($notification);
+    }
+
+    public function updateCart(Request  $request){
+        foreach ($request->quantity as $cart_id=>$quantity) {
+
+            Cart::find($cart_id)->update([
+                'quantity'=> $quantity,
+            ]);
+
+        }
+        $notification = array(
+            'message' => "Cart Update",
+            'alert-type' => 'success'
+        );
+        return redirect()->back()->with($notification);
+    }
+
 }

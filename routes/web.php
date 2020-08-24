@@ -37,6 +37,8 @@ Route::prefix('admin')->group(function () {
     Route::post('/add/product/','ProductController@addProduct');
 
     Route::get('/product','ProductController@product')->name('product');
+    Route::get('/cupon','ProductController@cupon')->name('cupon');
+    Route::post('/cupon','ProductController@addCupon');
 });
 
 
@@ -46,3 +48,5 @@ Route::prefix('admin')->group(function () {
 Route::get('/','FrontendController@index')->name('home');
 Route::get('/cart','CartController@cart')->name('cart');
 Route::post('/cart','CartController@addCart');
+Route::get('/delete/cart/{id}','CartController@deleteCart')->name('deleteCart');
+Route::post('/update/cart','CartController@updateCart')->name('updateCart');

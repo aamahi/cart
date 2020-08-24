@@ -197,29 +197,45 @@
             <div class="header-cart">
                 <button class="icon-cart">
                     <i class="ti-shopping-cart"></i>
+                    @php
+                        $total = 0;
+                        foreach($carts as $cart){
+                             $total_price = (($cart->products)->cc)*($cart->quantity);
+                             $total = $total+$total_price;
+                        }
+                    @endphp
                     <span class="count-style">{{\App\Model\Cart::where('ip_address',request()->ip())->count()}}</span>
-                    <span class="count-price-add">$295.95</span>
+                    <span class="count-price-add">${{$total}}</span>
                 </button>
                 <div class="shopping-cart-content">
                     <ul>
+                        @php
+                            $total = 0;
+                        @endphp
                         @foreach($carts as $cart)
                         <li class="single-shopping-cart">
                             <div class="shopping-cart-img">
                                 <a href="#"><img width="60" alt="" src="{{asset('uploads/product/'.($cart->products)->photo)}}"></a>
                             </div>
                             <div class="shopping-cart-title">
+
+                                @php
+                                    $total_price = (($cart->products)->cc)*($cart->quantity);
+                                    $total = $total+$total_price;
+                                @endphp
                                 <h3><a href="#">{{($cart->products)->productName}}</a></h3>
-                                <span>Price: {{($cart->products)->price}}</span>
+                                <span>Price: {{($cart->products)->cc}}</span>
                                 <span>Qty: {{$cart->quantity}}</span>
+                                <span>total: {{$total_price}}</span>
                             </div>
                             <div class="shopping-cart-delete">
-                                <a href="#"><i class="icofont icofont-ui-delete"></i></a>
+                                <a href="{{route('deleteCart',$cart->id)}}"><i class="icofont icofont-ui-delete"></i></a>
                             </div>
                         </li>
                         @endforeach
                     </ul>
                     <div class="shopping-cart-total">
-                        <h4>total: <span>$550.00</span></h4>
+                        <h4>total: {{$total}}<span></span></h4>
                     </div>
                     <div class="shopping-cart-btn">
                         <a class="btn-style cr-btn" href="#">checkout</a>

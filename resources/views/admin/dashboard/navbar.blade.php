@@ -29,6 +29,14 @@
                 </ul>
             </li>
 
+            <li>
+                <a href="{{route('cupon')}}">
+                    <i class="fa fa-gift"></i>
+                    <span>Cupon</span>
+                </a>
+            </li>
+
+
 
         </ul>
         <!-- sidebar menu end-->

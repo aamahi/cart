@@ -45,65 +45,74 @@
     </div>
     <div class="product-cart-area pt-120 pb-130">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="table-content table-responsive">
-                        <table>
-                            <thead>
-                            <tr>
-                                <th class="product-name">products</th>
-                                <th class="product-price">products name</th>
-                                <th class="product-name">price</th>
-                                <th class="product-price">quantity</th>
-                                <th class="product-quantity">total</th>
-                                <th class="product-subtotal">delete</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            @foreach($carts as $cart)
+            <form action="{{route('updateCart')}}" method="post">
+                @csrf
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="table-content table-responsive">
+                            <table>
+                                <thead>
                                 <tr>
-                                <td class="product-thumbnail">
-                                    <a href="#"><img  width="82" src="{{asset('uploads/product/'.($cart->products)->photo)}}" alt=""></a>
-                                </td>
-                                <td class="product-name">
-                                    <a href="#">{{($cart->products)->productName}}</a>
-                                </td>
-                                <td class="product-price"><span class="amount">{{($cart->products)->cc}}</span></td>
-                                <td class="product-quantity">
-                                    <div class="quantity-range">
-                                        <input class="input-text qty text" type="number" step="1" min="0" value="{{$cart->quantity}}" title="Qty" size="4">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal">{{(($cart->products)->cc)*($cart->quantity)}}</td>
-                                <td class="product-cart-icon product-subtotal"><a href="#"><i class="ti-trash"></i></a></td>
-                            </tr>
-                            @endforeach
-                            </tbody>
-                        </table>
+                                    <th class="product-name">products</th>
+                                    <th class="product-price">products name</th>
+                                    <th class="product-name">price</th>
+                                    <th class="product-price">quantity</th>
+                                    <th class="product-quantity">total</th>
+                                    <th class="product-subtotal">delete</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                @php
+                                    $total = 0;
+                                @endphp
+                                @foreach($carts as $cart)
+
+                                    <tr>
+                                    <td class="product-thumbnail">
+                                        <a href="#"><img  width="82" src="{{asset('uploads/product/'.($cart->products)->photo)}}" alt=""></a>
+                                    </td>
+                                    <td class="product-name">
+                                        <a href="#">{{($cart->products)->productName}}</a>
+                                    </td>
+                                    <td class="product-price"><span class="amount">{{($cart->products)->cc}}</span></td>
+                                    <td class="product-quantity">
+                                        <div class="quantity-range">
+                                            <input class="input-text qty text" name="quantity[{{$cart->id}}]" type="number" step="1" min="0" value="{{$cart->quantity}}" title="Qty" size="4">
+                                        </div>
+                                    </td>
+                                    <td class="product-subtotal">{{(($cart->products)->cc)*($cart->quantity)}}</td>
+                                    <td class="product-cart-icon product-subtotal"><a href="{{route('deleteCart',$cart->id)}}"><i class="ti-trash"></i></a></td>
+
+                                        @php
+                                            $total_price = (($cart->products)->cc)*($cart->quantity);
+                                            $total = $total+$total_price;
+                                        @endphp
+
+
+                                </tr>
+                                @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="cart-shiping-update">
-                        <div class="cart-shipping">
-                            <a class="btn-style cr-btn" href="#">
-                                <span>continue shopping</span>
-                            </a>
-                        </div>
-                        <div class="update-checkout-cart">
-                            <div class="update-cart">
-                                <button class="btn-style cr-btn"><span>update</span></button>
-                            </div>
-                            <div class="update-cart">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="cart-shiping-update">
+                            <div class="cart-shipping">
                                 <a class="btn-style cr-btn" href="#">
-                                    <span>checkout</span>
+                                    <span>continue shopping</span>
                                 </a>
                             </div>
+                            <div class="update-checkout-cart">
+                                <div class="update-cart">
+                                    <button type="submit" class="btn-style cr-btn"><span>update</span></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </form>
             <div class="row">
                 <div class="col-md-7 col-sm-6">
                     <div class="discount-code">
@@ -120,27 +129,16 @@
                         <ul>
                             <li>
                                 sub total
-                                <span>$909.00</span>
-                            </li>
-                            <li>
-                                tax
-                                <span>$9.00</span>
-                            </li>
-                            <li class="order-total">
-                                shipping
-                                <span>0</span>
+                                <span>${{$total}}</span>
                             </li>
                             <li>
                                 order total
-                                <span>$918.00</span>
+                                <span>${{$total}}</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="cart-btn text-center mb-15">
-                        <a href="#">payment</a>
-                    </div>
                     <div class="continue-shopping-btn text-center">
-                        <a href="#">continue shopping</a>
+                        <a href="#">Checkout</a>
                     </div>
                 </div>
             </div>
